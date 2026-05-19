@@ -13,11 +13,11 @@ const menuItems = [
   { path: "/kerjasama-luaran", label: "IKU 5 – KERJASAMA & LUARAN", icon: Handshake, disabled: false },
   { path: "/publikasi-internasional", label: "IKU 6 – PUBLIKASI INTERNASIONAL", icon: Globe, disabled: false },
   // 👇 IKU 7-11: disabled: true
-  { path: "/sdgs", label: "IKU 7 – SDGS", icon: Leaf, disabled: true },
-  { path: "/sdm-kebijakan", label: "IKU 8 – SDM DALAM KEBIJAKAN", icon: ShieldCheck, disabled: true },
-  { path: "/pendapatan-non-ukt", label: "IKU 9 – PENDAPATAN NON UKT", icon: Banknote, disabled: true },
-  { path: "/zona-integritas", label: "IKU 10 – ZONA INTEGRITAS", icon: Shield, disabled: true },
-  { path: "/tata-kelola", label: "IKU 11 – TATA KELOLA", icon: LayoutDashboard, disabled: true },
+  { path: "/sdgs", label: "IKU 7 – SDGS", icon: Leaf, disabled: false },
+  { path: "/sdm-kebijakan", label: "IKU 8 – SDM DALAM KEBIJAKAN", icon: ShieldCheck, disabled: false },
+  { path: "/pendapatan-non-ukt", label: "IKU 9 – PENDAPATAN NON UKT", icon: Banknote, disabled: false },
+  { path: "/zona-integritas", label: "IKU 10 – ZONA INTEGRITAS", icon: Shield, disabled: false },
+  { path: "/tata-kelola", label: "IKU 11 – TATA KELOLA", icon: LayoutDashboard, disabled: false },
 ];
 
 export default function Sidebar() {

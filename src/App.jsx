@@ -6,6 +6,11 @@ import AktivitasMahasiswa from "./pages/AktivitasMahasiswa";
 import RekognisiDosen from "./pages/RekognisiDosen";
 import PublikasiInternasional from "./pages/PublikasiInternasional";
 import KerjasamaLuaran from "./pages/KerjasamaLuaran";
+import Sdgs from "./pages/Sdgs";
+import SdmKebijakan from "./pages/SdmKebijakan";
+import PendapatanNonUkt from "./pages/PendapatanNonUkt";
+import ZonaIntegritas from "./pages/ZonaIntegritas";
+import TataKelola from "./pages/TataKelola";
 
 function App() {
   return (
@@ -18,7 +23,11 @@ function App() {
           <Route path="rekognisi-dosen" element={<RekognisiDosen />} />
           <Route path="kerjasama-luaran" element={<KerjasamaLuaran />} />
           <Route path="publikasi-internasional" element={<PublikasiInternasional />} />
-          {/* Tambahkan route lain di sini nanti */}
+          <Route path="sdgs" element={<Sdgs />} />
+          <Route path="sdm-kebijakan" element={<SdmKebijakan />} />
+          <Route path="pendapatan-non-ukt" element={<PendapatanNonUkt />} />
+          <Route path="zona-integritas" element={<ZonaIntegritas />} />
+          <Route path="tata-kelola" element={<TataKelola />} />
         </Route>
       </Routes>
     </BrowserRouter>
